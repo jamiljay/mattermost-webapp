@@ -374,7 +374,6 @@ const Search: React.FC<Props> = (props: Props): JSX.Element => {
                     {renderSearchBar()}
                     {renderMentionButton()}
                     {renderFlagBtn()}
-                    <UserGuideDropdown/>
                 </div>
             </div>
             {props.searchVisible ? (

@@ -193,7 +193,6 @@ class RHSSearchNav extends React.PureComponent<Props, State> {
                     onClick={this.getFlagged}
                     tooltipKey={'flaggedPosts'}
                 />
-                <UserGuideDropdown/>
             </>
         );
     }
